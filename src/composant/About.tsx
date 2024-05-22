@@ -15,7 +15,7 @@ export const About = () => {
             Motivé par l'apprentissage continu et la mise en pratique de nouvelles technologies.
             Actuellement à la recherche de stages ou de projets collaboratifs pour développer davantage mes compétences et contribuer à des projets innovants.
         </p>
-        <a href='/cv.pdf' download><button className='button'>DOWNLOAD CV <img src={download}/></button></a>
+        <a href='/cv.pdf' download><button className='button'>DOWNLOAD CV <img src={download}  alt='me' /></button></a>
         <div className='detail'>
           <div className='bold'>
           <p>Email </p>

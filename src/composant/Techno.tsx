@@ -29,9 +29,9 @@ export const Techno = () => {
             <div>
                 <h3>SKILL</h3>
                 <ul className='ski'>
-                    <li><img src={check}/>LeaderShip</li>
-                    <li><img src={check}/>Travail en equipe</li>
-                    <li><img src={check}/>Dactylographie</li>
+                    <li><img src={check}  alt='me' />LeaderShip</li>
+                    <li><img src={check}  alt='me' />Travail en equipe</li>
+                    <li><img src={check}  alt='me' />Dactylographie</li>
                 </ul>
             </div>
         </div>
