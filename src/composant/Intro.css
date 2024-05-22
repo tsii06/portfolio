@@ -1,0 +1,42 @@
+.intro h1{
+  color: black;
+  font-weight: 900;
+}
+.intro {
+  background-image: url('../images/fond.jpg');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column; /* Arrange les éléments en colonne */
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+  text-align: center; /* Centre le texte dans les éléments */
+  color: #fff; /* Assurez-vous que le texte soit visible sur l'image de fond */
+  padding: 20px;
+}
+.buttons{
+  border: none;
+  padding: 5px;
+  color: rgb(142, 140, 140);
+}
+.lien{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(142, 140, 140);
+  padding: 0;
+  margin-top: 10px;
+}
+.lien li{
+  margin: 5px;
+  list-style: none;
+  cursor: pointer;
+}
+.lien li img{
+  width: 30px;
+  height: 30px;
+}
+.lien li:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}

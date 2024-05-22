@@ -1,0 +1,25 @@
+.flex h4{
+    font-size: 1.35rem;
+    font-weight: 500;
+    font-family: "Saira Extra Condensed", Arial, Helvetica, sans-serif;
+    color: rgb(142, 140, 140);
+}
+.date h4{
+    color: rgb(85, 85, 184);
+    font-weight: inherit;
+    font-size: inherit;
+}
+.flex h3{
+    font-weight: 700;
+}
+.img img{
+    margin: 20px;
+}
+.ski{
+    list-style: none;
+    font-weight: bold;
+  }
+  .ski img{
+    padding-right: 10px;
+  }
+  
