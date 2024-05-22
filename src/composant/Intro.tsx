@@ -15,7 +15,7 @@ export const Intro = () => {
           <ul className='lien'>
             <li><a href='https://web.facebook.com/tsiory.fanantenana.75'><img src={facebook} alt='me' className='img-fluid' /></a></li>
             <li><a href='https://github.com/tsii06?tab=repositories'><img src={git} alt='me' className='img-fluid' /></a></li>
-            <li><img src={linkedin} alt='me' className='img-fluid' /></li>
+            <li><a href='https://www.linkedin.com/in/tsiory-fanantenana-0062a230a'><img src={linkedin} alt='me' className='img-fluid' /></a></li>
           </ul>
         </div>
     </div>

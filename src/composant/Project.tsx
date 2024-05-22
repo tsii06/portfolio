@@ -35,7 +35,7 @@ export const Project = () => {
                         <p>:Mysql</p>
                     </div>
                 </div>
-                <a href='/cv.pdf'><button className='g'><img src={git}  alt='me' /></button></a>
+                <a href='https://github.com/tsii06/GestionCommerciale.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
         </div>
 
@@ -63,7 +63,7 @@ export const Project = () => {
                         <p>:Postgres & Mongo DB</p>
                     </div>
                 </div>
-                <a href='/cv.pdf'><button className='g'><img src={git}  alt='me' /></button></a>
+                <a href='https://github.com/tsii06/mobil-s5.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
             
         </div>
@@ -92,7 +92,7 @@ export const Project = () => {
                         <p>:Mysql</p>
                     </div>
                 </div>
-                <a href='/cv.pdf'><button className='g'><img src={git}  alt='me' /></button></a>
+                <a href='https://github.com/tsii06/BTP.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
         </div>
 
@@ -119,7 +119,7 @@ export const Project = () => {
                         <p>:Postgres</p>
                     </div>
                 </div>
-                <a href='/cv.pdf'><button className='g'><img src={git}  alt='me' /></button></a>
+                <a href='https://github.com/tsii06/GestionMeuble.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
         </div>
 
