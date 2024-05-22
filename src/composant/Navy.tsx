@@ -13,7 +13,7 @@ export const Navy: React.FC = () => {
   return (
     <div>
       <header>
-        <a href="#" className="logo col-md-6">Tsiory.Dev</a>
+        <a href="#home" className="logo col-md-6">Tsiory.Dev</a>
         <div className="menu-icon" onClick={toggleMenu}>
           <img src={menuIcon} alt="Menu" />
         </div>
