@@ -11,7 +11,7 @@ import check from '../images/check.png';
 
 export const Techno = () => {
   return (
-    <div id='techno' className='all'>
+    <div id='skills' className='all'>
         <div className='titre'>
             <span>Skills and Education</span>
             <div>

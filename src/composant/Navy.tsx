@@ -20,8 +20,8 @@ export const Navy: React.FC = () => {
         <ul className={`col-md-6 ${menuOpen ? 'active' : ''}`}>
           <li><a href="#home" onClick={toggleMenu}>Home</a></li>
           <li><a href="#about" onClick={toggleMenu}>About</a></li>
+          <li><a href="#skills" onClick={toggleMenu}>Skills</a></li>
           <li><a href="#project" onClick={toggleMenu}>Project</a></li>
-          <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         </ul>
       </header>
     </div>

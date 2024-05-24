@@ -6,7 +6,7 @@ import git from '../images/git.png';
 
 export const Intro = () => {
   return (
-    <div className='intro'>
+    <div className='intro' id='home'>
       <h1>Hi, I'm</h1>
         <h1>HONITRINILA NAMBINITSALAMASOA</h1>
         <h1> <span>Tsiory</span> Fanantenana</h1>
