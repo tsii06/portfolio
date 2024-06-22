@@ -5,6 +5,8 @@ import cloud from '../images/cloud.png';
 import gestion from '../images/gestion.png';
 import meuble from '../images/meuble.png';
 import git from '../images/git.png';
+import coupure from '../images/coupure.png';
+import med from '../images/med.png';
 
 export const Project = () => {
   return (
@@ -109,7 +111,7 @@ export const Project = () => {
                 </p>
                 <div className='detail'>
                     <div className='bold'>
-                        <p>Framework</p>
+                        <p>Affichage</p>
                         <p>Backend  </p>
                         <p>Base de données  </p>
                     </div>
@@ -120,6 +122,58 @@ export const Project = () => {
                     </div>
                 </div>
                 <a href='https://github.com/tsii06/GestionMeuble.git'><button className='g'><img src={git}  alt='me' /></button></a>
+            </div>
+        </div>
+        <div className='row'>
+            <div className='col-12 col-md-6 d-flex justify-content-center'>
+                <img src={coupure} alt='me' className='img-fluid w-100 h-100 object-fit-cover' />
+            </div>
+            <div className='col-12 col-md-6 info'>
+                <h2>Gestion Coupure de courant</h2>
+                <p>
+                L'application est conçue pour gérer les coupures de courant dans une université. Elle permet de prédire les moments de la journée où le courant
+                 pourrait être coupé, afin d'éviter les périodes sans électricité. Cela est possible grâce à la collecte de données sur l'utilisation du courant au sein de l'université, 
+                telles que la puissance des panneaux solaires, l'état des batteries, et la consommation électrique des élèves.
+                </p>
+                <div className='detail'>
+                    <div className='bold'>
+                        <p>Affichage</p>
+                        <p>Backend  </p>
+                        <p>Base de données  </p>
+                    </div>
+                    <div>
+                        <p>:JSP</p>
+                        <p>:Java</p>
+                        <p>:Postgres</p>
+                    </div>
+                </div>
+                <a href='https://github.com/tsii06/electricite.git'><button className='g'><img src={git}  alt='me' /></button></a>
+            </div>
+        </div>
+
+        <div className='row'>
+            <div className='col-12 col-md-6 d-flex justify-content-center'>
+                <img src={med} alt='me' className='img-fluid w-100 h-100 object-fit-cover' />
+            </div>
+            <div className='col-12 col-md-6 info'>
+                <h2>MediMaladie</h2>
+                <p>
+                L'application permet de diagnostiquer les maladies possibles d'un patient en fonction de ses symptômes. Une fois la maladie identifiée, elle propose des médicaments appropriés. 
+                Pour sélectionner les médicaments les moins chers, l'application utilise l'algorithme du simplexe afin d'optimiser les coûts.
+                </p>
+                <div className='detail'>
+                    <div className='bold'>
+                        <p>Affichage</p>
+                        <p>Backend  </p>
+                        <p>Base de données  </p>
+                    </div>
+                    <div>
+                        <p>:JSP</p>
+                        <p>:Java</p>
+                        <p>:Postgres</p>
+                    </div>
+                </div>
+                <a href='https://github.com/tsii06/maladie.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
         </div>
 
