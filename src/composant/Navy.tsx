@@ -18,10 +18,10 @@ export const Navy: React.FC = () => {
           <img src={menuIcon} alt="Menu" />
         </div>
         <ul className={`col-md-6 ${menuOpen ? 'active' : ''}`}>
-          <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-          <li><a href="#about" onClick={toggleMenu}>About</a></li>
-          <li><a href="#skills" onClick={toggleMenu}>Skills</a></li>
-          <li><a href="#project" onClick={toggleMenu}>Project</a></li>
+          <li><a href="#home" onClick={toggleMenu}> Accueil</a></li>
+          <li><a href="#about" onClick={toggleMenu}>À propos</a></li>
+          <li><a href="#skills" onClick={toggleMenu}>Compétences</a></li>
+          <li><a href="#project" onClick={toggleMenu}>Projets</a></li>
         </ul>
       </header>
     </div>

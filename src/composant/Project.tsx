@@ -2,28 +2,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Project.css';
 import btp from '../images/btp.png';
 import cloud from '../images/cloud.png';
-import gestion from '../images/gestion.png';
 import meuble from '../images/meuble.png';
 import git from '../images/git.png';
 import coupure from '../images/coupure.png';
 import med from '../images/med.png';
+import visualisation from '../images/visualisation.png';
 
 export const Project = () => {
   return (
     <div id='project' className='all'>
         <div className='titre'>
-            <span>Portfolio</span>
-            <h3>Mes recents projets depuis les 6 dernies mois</h3>
+            <span>Projets</span>
         </div>
         <div className='row'>
             <div className='col-12 col-md-6 d-flex justify-content-center'>
-                <img src={gestion} alt='me' className='img-fluid w-100 h-100 object-fit-cover' />
+                <img src={visualisation} alt='me' className='img-fluid w-100 h-100 object-fit-cover' />
             </div>
             <div className='col-12 col-md-6 info'>
-                <h2>Systeme d'information</h2>
+                <h2>TanaMobility</h2>
                 <p>
-                Développement d'un système d'information pour la gestion des affaires d'une entreprise. Ce système permet de suivre et de conclure une affaire
-                 grâce à un processus de validation, allant du département initial jusqu'au chef des ressources humaines (RH).
+                Le projet TanaMobility est une plateforme interactive dédiée à la visualisation des flux de transport à Antananarivo, Madagascar. Elle utilise des données géospatiales et des indicateurs clés (passagers, vitesse commerciale, itinéraires) pour fournir une compréhension approfondie des dynamiques de mobilité urbaine.
+                 Développée avec Python (Dash et Plotly) et PostgreSQL, cette plateforme aide les urbanistes et décideurs à optimiser la planification des infrastructures et à promouvoir une mobilité durable grâce à des visualisations claires et configurables.
                 </p>
                 <div className='detail'>
                     <div className='bold'>
@@ -32,12 +31,37 @@ export const Project = () => {
                         <p>Base de données  </p>
                     </div>
                     <div>
-                        <p>:Codegniter</p>
-                        <p>:PHP</p>
-                        <p>:Mysql</p>
+                        <p>:Dash</p>
+                        <p>:Python</p>
+                        <p>:PostgreSQL</p>
                     </div>
                 </div>
-                <a href='https://github.com/tsii06/GestionCommerciale.git'><button className='g'><img src={git}  alt='me' /></button></a>
+                <a href='https://github.com/tsii06/Mobility'><button className='g'><img src={git}  alt='me' /></button></a>
+            </div>
+        </div>
+        <div className='row'>
+            <div className='col-12 col-md-6 d-flex justify-content-center'>
+                <img src={meuble} alt='me' className='img-fluid w-100 h-100 object-fit-cover' />
+            </div>
+            <div className='col-12 col-md-6 info'>
+                <h2>Gestion de Meuble</h2>
+                <p>
+                    Application de gestion de fabrication de meubles permettant de suivre la production depuis la matière première jusqu'au produit fini. 
+                    Le système calcule automatiquement les coûts de production et génère des rapports détaillés sur les stocks et la rentabilité.
+                </p>
+                <div className='detail'>
+                    <div className='bold'>
+                        <p>Framework</p>
+                        <p>Backend  </p>
+                        <p>Base de données  </p>
+                    </div>
+                    <div>
+                        <p>:Laravel</p>
+                        <p>:PHP</p>
+                        <p>:Postgres</p>
+                    </div>
+                </div>
+                <a href='https://github.com/tsii06/Meuble.git'><button className='g'><img src={git}  alt='me' /></button></a>
             </div>
         </div>
 

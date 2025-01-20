@@ -10,10 +10,9 @@ export const About = () => {
       <span>About</span>
         <h1>Developper Junior</h1>
         <p>
-            Étudiant en L3 en Informatique avec une passion pour le développement de logiciels et d'applications web.
-            Compétent en Spring, Java, Laravel, React et diverses bases de données. 
-            Motivé par l'apprentissage continu et la mise en pratique de nouvelles technologies.
-            Actuellement à la recherche de stages ou de projets collaboratifs pour développer davantage mes compétences et contribuer à des projets innovants.
+        Titulaire d'une licence en Informatique de l'Université ITU, spécialisé en développement Fullstack.
+        Passionné par la création de solutions numériques innovantes, je suis motivé par le désir de relever des défis techniques et de contribuer à des projets ayant un impact réel.
+         Mon engagement envers l'apprentissage continu me pousse à toujours améliorer mes compétences et à explorer de nouvelles approches pour répondre aux besoins technologiques actuels et futurs.
         </p>
         <a href='/cv.pdf' download><button className='button'>DOWNLOAD CV <img src={download}  alt='me' /></button></a>
         <div className='detail'>
@@ -27,7 +26,7 @@ export const About = () => {
           <p>:tsiory0006@gmail.com</p>
           <p>:034 76 207 59</p>
           <p>:Lot ICA 106 Antsahasoa</p>
-          <p>:20</p>
+          <p>:21</p>
           </div>
           
         </div>

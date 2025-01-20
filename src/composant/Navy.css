@@ -45,6 +45,35 @@ header ul li a {
 	transition: 0.4s;
 }
 
+/* Ajout de l'effet de survol */
+header ul li a::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	background: #3498db;
+	left: 0;
+	bottom: -5px;
+	transition: width 0.3s ease;
+}
+
+header ul li a:hover {
+	color: #3498db;
+}
+
+header ul li a:hover::after {
+	width: 100%;
+}
+
+/* Modification pour le mode sticky */
+header.sticky ul li a:hover {
+	color: #3498db;
+}
+
+header.sticky ul li a::after {
+	background: #3498db;
+}
+
 header.sticky {
 	padding: 10px 100px;
 	background: #0b0909;
